@@ -129,7 +129,7 @@ func (d *Day3) Part2(input string) {
 		}
 
 		var multiplied int
-		if len(adjacentNumbers) > 1 {
+		if len(adjacentNumbers) == 2 {
 			multiplied = 1
 			for _, number := range adjacentNumbers {
 				parsed, err := strconv.Atoi(number)
