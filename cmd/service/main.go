@@ -15,11 +15,11 @@ func main() {
 		panic(err)
 	}
 
-	dat, err := os.ReadFile(pwd + "/input/day2.txt")
+	dat, err := os.ReadFile(pwd + "/input/day3.txt")
 	if err != nil {
 		panic(err)
 	}
 
-	day := Day2{}
+	day := Day3{}
 	day.Part2(string(dat))
 }
